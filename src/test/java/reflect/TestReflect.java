@@ -8,6 +8,6 @@ import org.junit.Test;
 public class TestReflect {
     @Test
     public void test(){
-        new ReflectDemo();
+//        new ReflectDemo();
     }
 }

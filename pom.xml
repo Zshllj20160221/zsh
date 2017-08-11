@@ -7,6 +7,7 @@
     <groupId>com</groupId>
     <artifactId>zsh</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -18,6 +19,7 @@
     </dependencies>
 
     <build>
+        <finalName>zsh</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -26,6 +28,17 @@
                 </includes>
             </resource>
         </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 
