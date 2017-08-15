@@ -6,14 +6,7 @@ package jvmDemo.stackUse;
 public class StackInstance {
 
     public void init(int a) {
-//        if (a < 5000) {
-//            try {
-//                Thread.sleep(10);
-                System.out.println(a++);
-//            } catch (Exception e) {
-//
-//            }
-//        }
+        System.out.println(a++);
         init(a);
     }
 }
