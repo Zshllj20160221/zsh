@@ -16,7 +16,7 @@ public class HeapOOM {
             public void run() {
                 while (true) {
                     try {
-                        Thread.sleep(500);
+                        //Thread.sleep(500);
                     }catch (Exception e){
                         e.printStackTrace();
                     }
