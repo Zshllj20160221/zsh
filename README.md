@@ -21,3 +21,6 @@ javah HelloWorld
 gcc -dynamiclib -I /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/include/ HelloWorldImpl.c -o libhello.jnilib
 java HelloWorld
 
+
+
+gcc -dynamiclib -I /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/include/ HelloWorldImpl.c -o libhello.jnilib
